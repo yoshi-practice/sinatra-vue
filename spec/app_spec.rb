@@ -8,6 +8,6 @@ describe "My Sinatra Application" do
   end
 
   it "should discribe message" do
-    expect(last_response.body).to eq('hello, world!')
+    expect(last_response.body).to include('This is MyApp')
   end
 end
